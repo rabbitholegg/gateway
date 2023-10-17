@@ -1,0 +1,27 @@
+{
+  "github.copilot.advanced": {},
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot-labs.advanced": {},
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+    "source.sortMembers": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.sideBar.location": "right",
+  "editor.fontFamily": "IBMPlexMono",
+  "editor.fontWeight": "normal",
+  "workbench.fontAliasing": "auto",
+  "editor.fontVariations": false,
+  "editor.fontLigatures": true,
+  "scm.inputFontFamily": "editor",
+  "window.zoomLevel": 1,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false
+}

@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #fbfbfc;
+    --foreground: #ffffff;
+
+    --primary-text: 33 33 33;
+    --primary-stroke: 232 233 237;
+    --primary-highlight: #1f1f1f;
+    --secondary-highlight: 29 215 80;
+
+    --progress: 0 0% 20%;
+    --progress-muted: 150 1% 53%;
+    --progress-warning: 58 92% 62%;
+    --progress-danger: 0 86% 78%;
+    --badge-primary: 136 100% 72%;
+  }
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/Inter-Regular.ttf') format('truetype'),
+    url('/Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-style: normal;
+  src: url('/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-style: normal;
+  src: url('/Inter-Medium.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: overlay;
+  letter-spacing: -0.03rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-chrome {
+  height: 100vh;
+  height: 100dvh;
+  width: 100vw;
+}
