@@ -7,7 +7,7 @@ import { zeroAddress } from 'viem';
 import { type PublicClient, type WalletClient } from 'wagmi';
 import { z } from 'zod';
 
-const QUEST_CONTRACT_ADDRESS = "0x10851543671491656606E6A49dE32c9cCb41b4F8"
+const QUEST_CONTRACT_ADDRESS = "0x52629961F71C1C2564C5aa22372CB1b9fa9EBA3E"
 
 const MintReceiptRequestSchema = z.object({
   questId: z.string(),
