@@ -23,6 +23,7 @@ Variable | Description
 --- | ---
 `NEXT_PUBLIC_ALCHEMY_API_KEY` | Your Alchemy API key, used for Connectkit.
 `NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID` | Your WalletConnect project ID, used for Connectkit.
+`NEXT_PUBLIC_API_URL` | https://public-api.rabbithole.gg/.
 
 ### Theming
 Variable | Description
@@ -50,7 +51,6 @@ Option | Description
 `arb-mainnet` | Arbitrum mainnet.
 `polygon` | Polygon network.
 `polygon-mainnet` | Polygon mainnet.
-、base 
 
 ## Documentation
 
