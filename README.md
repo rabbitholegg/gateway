@@ -50,6 +50,7 @@ Option | Description
 `arb-mainnet` | Arbitrum mainnet.
 `polygon` | Polygon network.
 `polygon-mainnet` | Polygon mainnet.
+、base 
 
 ## Documentation
 
