@@ -45,10 +45,8 @@ Option | Description
 --- | ---
 `eth-mainnet` | Ethereum mainnet.
 `opt-mainnet` | Optimism mainnet.
-`optimism` | Optimism network.
-`arbitrum` | Arbitrum network.
 `arb-mainnet` | Arbitrum mainnet.
-`polygon` | Polygon network.
+`zksync-mainnet` | Arbitrum mainnet.
 `polygon-mainnet` | Polygon mainnet.
 
 ## Documentation
