@@ -3,7 +3,7 @@
 # Quest Gateway
 Accessible and customizable gateway that you can deploy to your community. Free and Open Source. **Use this to deploy your custom quest gateway and start earning Quest Protocol rewards**.
 
-![hero](public/og-image.png)
+![hero](https://assets.rabbithole.gg/gateway-repo-hero.png)
 
 ## Get Started
 
