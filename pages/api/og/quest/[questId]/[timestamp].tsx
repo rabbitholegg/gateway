@@ -178,7 +178,7 @@ export default async function (req: NextApiRequest, res: NextApiResponse) {
     assert(isNonEmptyString(questId), "Missing questId")
 
     const response = await fetch(
-      `${process.env.NEXT_PUBLIC_API_URL}/quest?questId=${questId}`
+      `https://public-api.rabbithole.gg/quest?questId=${questId}`
     )
 
     const { quest, reward } = (await response.json()) as GetQuestByIdResponse
