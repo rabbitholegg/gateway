@@ -25,7 +25,7 @@ export default async function request<Request, Response extends {} | null>({
           "Content-type": "application/json",
         },
         withCredentials: true,
-        baseURL: `${process.env.NEXT_PUBLIC_API_URL}/`,
+        baseURL: "https://public-api.rabbithole.gg/",
         ...config,
       })
       .then((res) => res.data)

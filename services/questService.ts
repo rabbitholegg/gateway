@@ -42,7 +42,6 @@ class QuestService {
       return request({
         config: {
           method: "get",
-          baseURL: `${process.env.NEXT_PUBLIC_API_URL}/`,
           url: 'v1/quests',
           params: {
             address,
@@ -63,7 +62,6 @@ class QuestService {
     return request({
       config: {
         method: "get",
-        baseURL: `${process.env.NEXT_PUBLIC_API_URL}/`,
         url: 'v1/quests',
         params: {
           ethValue: MIN_REWARD_VALUE_WEI,
@@ -77,7 +75,7 @@ class QuestService {
       },
       responseSchema: GetQuestsResponseSchema,
       identifier: "QuestService.getPublicQuests",
-    })  
+    })
   }
 
   // Used to fetch quest info when unauthenticated, this returns the same quest information as getQuestForUser without eligibility info
@@ -95,7 +93,6 @@ class QuestService {
     const { quest, reward } = await request({
       config: {
         method: "get",
-        baseURL: `${process.env.NEXT_PUBLIC_API_URL}/`,
         url: 'v1/quest',
         params: {
           address: isValidAddress(address) ? address : undefined,
@@ -105,7 +102,7 @@ class QuestService {
       responseSchema: GetQuestsByIdResponseSchema,
       identifier: "QuestService.getQuestById",
     })
-    
+
     return {
       ...quest,
       reward
